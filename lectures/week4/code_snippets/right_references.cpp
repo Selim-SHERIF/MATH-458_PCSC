@@ -9,6 +9,6 @@ int main() {
   print2(100);
 
   // right reference combined with auto
-  auto &&a = 100;
-  auto &&b = a;
+  auto &&a = 100; // resolves as int a = 100;
+  auto &&b = a;   // resolves as int &b = a;
 }
