@@ -11,11 +11,17 @@
  * Any headers you need to include should be specified on the next lines
  */
 #include <iostream>
+#include <string>
 
 int main(int argc, char* argv[])
 {
-	   std::cout << "Hello World!" << std::endl;
-
+    std::string first_name, last_name;
+	std::cout << "Please input your last name:" <<std::endl;
+    std::cin >> last_name;
+    std::cout << "Please input your first name:" <<std::endl;
+    std::cin >> first_name;
+    std::string full_name =   first_name + " " + last_name ;
+    std::cout << "Your full name is: " << full_name << std::endl;
     return 0;
 }
 
