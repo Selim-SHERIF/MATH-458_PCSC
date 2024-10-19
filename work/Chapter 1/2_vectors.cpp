@@ -1,15 +1,13 @@
 /*
- * exercise-template.cpp <--- The name of the source file goes here
+ * 2_vectors.cpp
  *
- * <--- Description of the program goes here.
+ * Takes 2 vectors (defined in the code) and outputs the dot product of the 2 vectors and
+ * the norm of each
  *
- * Created on: September 02, 2015 <--- Fill in the date here
- * 	   Author: Davide Forti <davide.forti@epfl.ch> <--- Fill in your name (and e-mail) here
+ * Created on: October 9, 2024
+ * Author: Selim.SHERIF <selim.sherif@epfl.ch
  */
 
-/*
- * Any headers you need to include should be specified on the next lines
- */
 #include <iostream>
 #include <cmath>
 int main(int argc, char* argv[])

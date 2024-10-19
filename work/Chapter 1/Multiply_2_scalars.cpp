@@ -1,15 +1,12 @@
 /*
- * exercise-template.cpp <--- The name of the source file goes here
+    Multiply_2_scalars.cpp
  *
- * <--- Description of the program goes here.
+ * Takes 2 Scalars as user input and outputs the product
  *
- * Created on: September 02, 2015 <--- Fill in the date here
- * 	   Author: Davide Forti <davide.forti@epfl.ch> <--- Fill in your name (and e-mail) here
+ * Created on: October 9, 2024
+ * Author: Selim.SHERIF <selim.sherif@epfl.ch
  */
 
-/*
- * Any headers you need to include should be specified on the next lines
- */
 #include <iostream>
 
 int main(int argc, char* argv[])
